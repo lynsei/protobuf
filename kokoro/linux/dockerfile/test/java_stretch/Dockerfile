@@ -1,7 +1,7 @@
 # Despite the name of this image, we are no longer on stretch.
 # We should consider renaming this image, and/or evaluating what
 # software versions we actually need.
-FROM debian:bullseye
+FROM debian:11
 
 # Install dependencies.  We start with the basic ones required to build protoc
 # and the C++ build
